@@ -81,7 +81,7 @@ test-memory: $(TARGET)
 
 .PHONY: checksrc
 checksrc:
-	./checksrc.pl trurl.c version.h
+	./scripts/checksrc.pl trurl.c version.h
 
 .PHONY: completions
 completions: trurl.md

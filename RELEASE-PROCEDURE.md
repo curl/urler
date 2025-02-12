@@ -6,7 +6,7 @@ in the source code repo
 
 - edit `RELEASE-NOTES` to be accurate
 
-- run `./mkrelease [version]`
+- run `./scripts/mkrelease [version]`
 
 - make sure all relevant changes are committed on the master branch
 
